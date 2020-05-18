@@ -25,8 +25,8 @@ dependencies {
     implementation 'com.google.guava:guava:28.0-jre'
     // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-mapreduce-client-core
     compile group: 'org.apache.hadoop', name: 'hadoop-mapreduce-client-core', version: '2.7.5'
-    // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-core
-    compile group: 'org.apache.hadoop', name: 'hadoop-core', version: '1.2.1'
+    // https://mvnrepository.com/artifact/org.apache.hadoop/hadoop-client
+    compile group: 'org.apache.hadoop', name: 'hadoop-client', version: '3.2.1'
 
     // Use TestNG framework, also requires calling test.useTestNG() below
     testImplementation 'org.testng:testng:6.14.3'
